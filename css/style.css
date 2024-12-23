@@ -1,0 +1,258 @@
+header{
+    background: linear-gradient(#d5d5d5, #fff ,#fff ,#fff ,#fff );
+    padding:37px 0 24px 0;
+    text-align: center;
+}
+#hdrmenu{
+    padding:22px 0 0 0;
+} 
+#hdrmenu li{
+    font: .7rem "Tahoma",sans-serif;
+    color: #b7b7b7;
+    padding:0 8px 7px 8px; /* sabah buna bax!!! */
+}
+#logo img{
+    width:25%;
+}
+#hdrmenu li a{
+    font:bold .9rem "Georgia" serif;
+    display:block;
+    color: #666;
+    text-transform: uppercase;
+}
+main{
+    background:#fff url('../img/New\ Project.jpg') repeat-x;
+    padding:22px 0 0 0;
+    
+}
+#slider{
+    height:340px;
+    background: url('../img/slider1.jpg') center/cover;
+    border:1px solid #c6c6c6;
+    border-radius: 8px;
+}
+h1{
+    font:bold 1.5em "Georgia",serif;
+    color: #000000;
+    text-align: center;
+    padding:23px 0;
+}
+hr{
+    border:1px solid #ededed;
+}
+h2{
+    font: 1.3em "Georgia",serif;
+    color: #11719e;
+    text-transform: capitalize;
+}
+h3{
+    font-size: 1.1em "Georgia",sans-serif;
+    color: #444;
+    border:none;
+    border-bottom:1px dashed #d3d3d3;
+    padding:25px 0 10px 0;
+    text-align:left;
+    text-transform: capitalize;
+}
+h6{
+    font: .8em "Helvetica",sans-serif;
+    color: #8c8c8c;  
+}
+.paragraf{
+    font: 1.1em "Helvetica",sans-serif;
+    color: #444;
+    margin-bottom: 0px;
+    margin-top:15px;
+
+
+font-size: 12px;
+line-height: 14px;
+color: #444444;
+font-family: "Helvetica";
+
+    }
+#photos {
+    display: block;
+}
+#photos a{
+    font-size: 2.5em;
+    color:black;
+    margin:10px 12px 0 0;
+}
+#news{
+    font:bold 1.2em "Gill Sans";
+    color: #444;
+    margin:47px 0 10px 0;
+    border-bottom:1px dashed #d3d3d3;
+    border:none; 
+}
+form input, textarea{
+    margin: 12px 0 0 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #cfcfcf;
+    color: #cfcfcf;
+    width: 100%;
+}
+.divs{
+    border-bottom: 1px dashed #d3d3d3;
+    padding: 14px 0 9px 0;
+    overflow: auto;
+}
+.divs p{
+    font: .8em Helvetica, sans-serif;
+    color: #444;
+}
+.divs img{
+    float: left;
+    border: 6px solid #f0f0f0;
+    border-radius: 4px;
+    margin-right: 9px;
+}
+article p{
+    font: .8em "Helvetica",sans-serif;
+    color: #3e3e3e;
+}
+article img{
+    background-color:#f3f3f3;
+    border:1px solid #cacaca;
+    border-radius: 6px;
+    padding:6px;
+    margin:18px 0;
+    width:100%;
+}
+.btn {
+    display: table;
+    width: 164px;
+    padding: 8px 14px;
+    margin: 20px 0 0 0;
+    border-radius: 4px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.btn1 {
+    border: 1px solid #d8d8d8;
+    background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+    font: .8em Helvetica, sans-serif;
+    color: #016999;
+}
+.btn2 {
+    border: 1px solid #004a80;
+    background: linear-gradient(to right, #366a9c, #3c78b6, #2f6294, #306193);
+    font: .8em Georgia, serif;
+    color: #fff;
+}
+.btn spam{float: right;}
+.setir{padding:22px 0;} /*33px nin 2/3 hissesi esasa verildi mobile ucun*/
+.sutun{padding:11px 10px;} /* 1/3 hissesi elementlere verildi mobile ucun*/
+
+footer{
+    height:175px;
+    background:#333;
+    border-top:10px solid #4c4c4c;
+    
+}
+footer div {
+    margin-top:16px;
+}
+footer div p{
+    font-size: 11px;
+    line-height: 10px;
+    color: #999;
+    font-family: "Helvetica";
+}
+
+#fmnu1,#fmnu2 {
+   padding-top:10px;
+   
+}
+#fmnu1 li, #fmnu2 li{
+    display:inline-block;
+    /* margin-top:10px; */
+}
+#fmnu1 li a{
+    display:inline-block;
+    font-size: 11px;
+    color: #999;
+    font-family: "Helvetica";
+}
+#fmnu2 li a{
+    font-size: 11px;
+    color: #999;
+    font-family: "Helvetica";
+
+}
+
+
+@media only screen and (min-width:768px){
+    .container{
+        max-width: 940px;
+        margin: 0 auto;
+    }
+header{
+    text-align:initial;
+}
+#hdrmenu{
+ float:right;
+}
+#logo img{
+width:25%;
+}
+
+#hdrmenu li{
+    display:inline-block;
+    border-left:1px dotted #d6d6d6;
+}
+.setir::after{
+    content:'';
+    display:table;
+    clear:both;
+
+}
+
+.sutun{
+    width:33.33%;
+    float: left;
+}
+.lastdiv::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.left{
+    float:left;
+    width:20%;
+}
+#lg1:hover{
+    color:orange;
+    transform: scale(1.1);
+    transition: .2s; 
+}
+#lg2:hover{
+    color:darkblue;
+    transform: scale(1.1);
+    transition: .2s; 
+}
+#lg3:hover{
+    color:blue;
+    transform: scale(1.1);
+    transition: .2s; 
+}
+#lg4:hover{
+    color:red;
+    transform: scale(1.1);
+    transition: .2s; 
+}
+#lg5:hover{
+    color:rgb(0, 0, 28);
+    transform: scale(1.1);
+    transition: .2s; 
+}
+#right{
+    float:right;
+   
+}
+#left{
+   display:inline-block;
+}
+}
